@@ -56,3 +56,16 @@ songs:
       pitch: 0.707107
       delay: 10
 ```
+
+## Song Creation
+
+I’m currently working on a web application that will allow you to create songs more easily. However, for now, you can only create songs manually by writing them in YAML format. The song configuration consists of note block sounds, volume, pitch (note) and their timing. 
+
+Here you can find a list of available note block [**Sounds**](https://misode.github.io/sounds/) and the pitche values ([**Notes**](https://minecraft.fandom.com/wiki/Note_Block)).
+
+Delay is in minecraft ticks (1 tick = <sup>1</sup>&frasl;<sub>20</sub> second = 0.05 seconds).
+
+## Plan
+
+- **Playback Controlls** - Add more options to control music playback, such as pausing, skipping, and volume adjustments.
+- **Commands** - Enhance command support for admins.
