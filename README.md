@@ -4,7 +4,7 @@ This is a Minecraft server plugin built using the PaperMC API. It adds option to
 
 ## Overview
 
-The Music Player Plugin allows server admins to configure and play custom music tracks for all players or specific individuals (For now this can be done using the /sudo command). Songs can be triggered via commands, and the plugin includes options for looping, stopping, and listing available tracks.
+The Music Player Plugin allows server admins to configure and play custom music tracks for all players or specific individuals (For now this can be done using the /sudo command). Songs can be triggered via commands, and the plugin includes options for looping, stopping, and listing available songs.
 
 ## Features
 
