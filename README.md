@@ -21,40 +21,31 @@ The Music Player Plugin allows server admins to configure and play custom music 
 - **/playmusicall name loop-boolean** - Plays a specific song for all players on the server with the option to loop. The "loop-boolean" argument determines if the song should loop; enter "true" for looping or anything else for one replay only.
 
 # Default Config
-```yaml
-songs:
-  song-1:
-    - note:
-      type: "entity.villager.yes"
-      volume: 1
-      pitch: 0.707107
-      delay: 10
-    - note:
-      type: "entity.villager.yes"
-      volume: 1
-      pitch: 0.943874
-      delay: 10
-    - note:
-      type: "entity.villager.yes"
-      volume: 1
-      pitch: 0.707107
-      delay: 10
-  song-2:
-    - note:
-      type: "entity.villager.yes"
-      volume: 1
-      pitch: 0.707107
-      delay: 10
-    - note:
-      type: "entity.villager.yes"
-      volume: 1
-      pitch: 0.943874
-      delay: 10
-    - note:
-      type: "entity.villager.yes"
-      volume: 1
-      pitch: 0.707107
-      delay: 10
+```json
+{
+    "name": "test-1",
+    "duration": 5,
+    "notes": [
+        {
+        "type": "entity.villager.yes",
+        "volume": 1,
+        "pitch": 0.707107,
+        "delay": 10
+        },
+        {
+        "type": "entity.villager.yes",
+        "volume": 1,
+        "pitch": 0.943874,
+        "delay": 10
+        },
+        {
+        "type": "entity.villager.yes",
+        "volume": 1,
+        "pitch": 0.707107,
+        "delay": 10
+        }
+    ]
+}
 ```
 
 ## Song Creation
