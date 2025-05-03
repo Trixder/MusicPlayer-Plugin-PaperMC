@@ -1,0 +1,23 @@
+name: MusicPlayer
+version: '1.0'
+main: org.trixder.musicPlayer.MusicPlayer
+api-version: '1.21'
+commands:
+  musicreload:
+    description: Reloads the plugin config
+    usage: /musicreload
+  listmusic:
+    description: Displays all songs
+    usage: /listmusic
+  musicstop:
+    description: Stops the song
+    usage: /musicstop
+  musicstopall:
+    description: Stops all song
+    usage: /musicstopall
+  playmusic:
+    description: Play sound
+    usage: /playmusic <name> <loop-boolean>
+  playmusicall:
+    description: Play sound
+    usage: /playmusicall <name> <loop-boolean>
