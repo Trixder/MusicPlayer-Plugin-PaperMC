@@ -10,8 +10,8 @@ public class PlayerEventListener implements Listener {
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e) {
-        Song song = new Song(e.getPlayer());
-        MusicPlayer.MusicPlayers.put(e.getPlayer(), song);
+        Player player = new Player(e.getPlayer());
+        MusicPlayer.MusicPlayers.put(e.getPlayer(), player);
     }
 
     @EventHandler
