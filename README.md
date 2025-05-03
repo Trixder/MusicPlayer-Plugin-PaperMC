@@ -20,7 +20,7 @@ The Music Player Plugin allows server admins to configure and play custom music 
 - **/playmusic name loop-boolean** - Plays a song with a name for the player with the option to loop. The "loop-boolean" argument determines if the song should loop; enter "true" for looping or anything else for one replay only.
 - **/playmusicall name loop-boolean** - Plays a specific song for all players on the server with the option to loop. The "loop-boolean" argument determines if the song should loop; enter "true" for looping or anything else for one replay only.
 
-# Default Config
+# Song example
 ```json
 {
     "name": "test-1",
