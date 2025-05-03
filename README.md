@@ -1,6 +1,6 @@
 # Music Player Plugin – PaperMC Project [In Development]
 
-This is a Minecraft server plugin built using the PaperMC API. It adds option to play custom songs saved in config file. The plugin aims to enhance player immersion by adding background music or special soundtracks for different events.
+This is a Minecraft server plugin built using the PaperMC API. It adds option to play custom songs saved in json files. The plugin aims to enhance player immersion by adding background music or special soundtracks for different events.
 
 ## Overview
 
